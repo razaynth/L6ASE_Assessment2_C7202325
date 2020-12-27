@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASE_Assessment2</name>
+    </assembly>
+    <members>
+        <member name="T:ASE_Assessment2.Canvass">
+            <summary>
+            Class canvass to use many aspects to draw something on panel basically for 
+            creating different shapes and modifying them
+            </summary>
+        </member>
+        <member name="F:ASE_Assessment2.Canvass.pen">
+            <summary>
+            usign default pen 
+            </summary>
+        </member>
+        <member name="F:ASE_Assessment2.Canvass.Xpos">
+            <summary>
+            Declaring xpositon and y position for pen positioning in the bitmap 
+            </summary>
+        </member>
+        <member name="F:ASE_Assessment2.Canvass.Ypos">
+            <summary>
+            Declaring xpositon and y position for pen positioning in the bitmap 
+            </summary>
+        </member>
+        <member name="F:ASE_Assessment2.Canvass.brush">
+            <summary>
+            A solid brush to fill shapes
+            </summary>
+        </member>
+        <member name="F:ASE_Assessment2.Canvass.fil">
+            <summary>
+            check whether user want to fill color or not
+            </summary>
+        </member>
+        <member name="F:ASE_Assessment2.Canvass.Error">
+            <summary>
+            check whether user feels some error or not
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.Canvass.#ctor(System.Drawing.Graphics)">
+            <summary>
+            Intializing canvass with a pen at co-ordinate (0,0)
+            </summary>
+            <param name="g">Graphics to draw shapes on bitmap</param>
+        </member>
+        <member name="M:ASE_Assessment2.Canvass.moveTo(System.Int32,System.Int32)">
+            <summary>
+            Move to method is used to initialize the position of x and y positions
+            </summary>
+            <param name="xpos">X-axis value</param>
+            <param name="xpos">Y-axis value</param>
+        </member>
+        <member name="M:ASE_Assessment2.Canvass.drawTo(System.Int32,System.Int32)">
+            <summary>
+            Draw to method is used to create a line from point x and y
+            </summary>
+            <param name="xpos">X-axis value</param>
+            <param name="ypos">Y-axis value</param>
+        </member>
+        <member name="M:ASE_Assessment2.Canvass.Set_Pencolor(System.Drawing.Color)">
+            <summary>
+            Set_Pencolor is used to set a color as user's choice 
+            </summary>
+            <param name="col">this variable is used by user to set a pen color</param>
+        </member>
+        <member name="M:ASE_Assessment2.Canvass.CLEAR">
+            <summary>
+            To clears the output window box 
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ASE_Assessment2.Canvass.RESET" -->
+        <member name="T:ASE_Assessment2.cmdChecker">
+            <summary>
+            this class is used for checking commands which is provided by the user  to check errors or exceptions
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.cmdChecker.chk_cmd(ASE_Assessment2.Canvass,System.Int32,System.Int32)">
+            <summary>
+            This Class is used to display some error when user's input command doesn't found
+            </summary>
+            <param name="newCanvass">Canvass used to display error message</param>
+            <param name="line">the line number of the command to checl</param>
+            <param name="location">location of output window where error message is displayed</param>
+        </member>
+        <member name="M:ASE_Assessment2.cmdChecker.chk_var(System.Boolean,System.String,System.Int32,ASE_Assessment2.Canvass,System.Int32)">
+            <summary>
+            Displays error when enetered parameters are not valid in the context
+            </summary>
+            <param name="parameter">Boolean value which gets value accordingly to check valid parameters</param>
+            <param name="data">invalid parameter</param>
+            <param name="line">line number of the command</param>
+            <param name="newCanvass">Canvass used to display error message</param>
+            <param name="location">location of canvass where error message is displayed</param>
+        </member>
+        <member name="M:ASE_Assessment2.cmdChecker.chk_var(System.Exception,ASE_Assessment2.Canvass,System.Int32,System.Int32)">
+            <summary>
+            To check Syntax used for exception when the value are input by the user
+            </summary>
+            <param name="e">Exception</param>
+            <param name="newCanvass">Display window to draw on</param>
+        </member>
+        <member name="T:ASE_Assessment2.cmdReader">
+            <summary>
+            It hels to execute commands which is input by the user in the Input window
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.cmdReader.Cmd(System.String,System.String,ASE_Assessment2.Canvass)">
+            <summary>
+            This help to check or reads command line if the line command is single or multiple commands
+            </summary>
+            <param name="command">Single Line command</param>
+            <param name="multicmd">Multiple Line commands</param>
+            <param name="NewCanvass">Display window to draw on</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ASE_Assessment2.cmdReader.oneCommand(System.String,ASE_Assessment2.Canvass)" -->
+        <!-- Badly formed XML comment ignored for member "M:ASE_Assessment2.cmdReader.manyCommand(System.String,ASE_Assessment2.Canvass)" -->
+        <!-- Badly formed XML comment ignored for member "M:ASE_Assessment2.cmdReader.chooseMethod(System.Collections.Generic.List{System.String},ASE_Assessment2.Canvass,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:ASE_Assessment2.cmdReader.for_Loop(System.Collections.Generic.List{System.String},ASE_Assessment2.Canvass,System.Int32,System.Int32)" -->
+        <member name="M:ASE_Assessment2.cmdReader.if_Condition(System.Collections.Generic.List{System.String},ASE_Assessment2.Canvass,System.Int32,System.Int32)">
+            <summary>
+            Parameters and instructions given by the user creates a if condition statement
+            </summary>
+            <param name="data">user input data for 'if' condition</param>
+            <param name="newCanvass">displaying screen in which user given instructions is implemented</param>
+            <param name="n">line where the program is currently running</param>
+            <param name="z"></param>
+        </member>
+        <member name="M:ASE_Assessment2.cmdReader.while_Loop(System.Collections.Generic.List{System.String},ASE_Assessment2.Canvass,System.Int32,System.Int32)">
+            <summary>
+            Parameters and instructions given by the user creates a while loop condition
+            </summary>
+            <param name="data">user input data for 'while' condition</param>
+            <param name="newCanvass">displaying screen in which user given instructions is implemented</param>
+            <param name="n">line where the program is currently running</param>
+            <param name="z"></param>
+        </member>
+        <member name="M:ASE_Assessment2.cmdReader.userCommands(System.String[],ASE_Assessment2.Canvass,System.Int32)">
+            <summary>
+            This help to execute application provided by user based on the instructions  
+            </summary>
+            <param name="splitCommand">User entered commands</param>
+            <param name="newCanvass">Display window to draw on</param>
+        </member>
+        <member name="T:ASE_Assessment2.design">
+            <summary>
+            using Abstract class for Design 
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.design.#ctor(System.Int32,System.Int32)">
+            <summary>
+            For putiing values for Height and Width
+            </summary>
+            <param name="H">Height</param>
+            <param name="W">Width</param>
+        </member>
+        <member name="M:ASE_Assessment2.design.draw(ASE_Assessment2.Canvass)">
+            <summary>
+            using Abstract method to create a design
+            </summary>
+            <param name="newCanvass">Display some bitmap picture to draw on output window</param>
+        </member>
+        <member name="T:ASE_Assessment2.drawCircle">
+            <summary>
+            Draw circle is method used to create an ellipse
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.drawCircle.#ctor(System.Int32)">
+            <summary>
+            used to put  a radius for the circle
+            </summary>
+            <param name="R">Radius of the circle</param>
+        </member>
+        <member name="M:ASE_Assessment2.drawCircle.draw(ASE_Assessment2.Canvass)">
+            <summary>
+            Draws a circle on the canvass with the given radius by the user
+            </summary>
+            <param name="newCanvass">Display window to draw on</param>
+        </member>
+        <member name="T:ASE_Assessment2.drawPolygon">
+            <summary>
+            Draw polygon is used to create a shape 
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.drawPolygon.#ctor(System.Int32[])">
+            <summary>
+             To Set a coordinates of polygon value
+            </summary>
+            <param name="x">Coordinate of Polygon</param>
+        </member>
+        <member name="M:ASE_Assessment2.drawPolygon.draw(ASE_Assessment2.Canvass)">
+            <summary>
+            To draw a polygon according to user choice coordinates vlaue
+            </summary>
+            <param name="newCanvass">Canvass in which the polygon is drawn</param>
+        </member>
+        <member name="T:ASE_Assessment2.drawRectangle">
+            <summary>
+            To draw square or rectangle on output window based on the height and width as user choice
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.drawRectangle.#ctor(System.Int32,System.Int32)">
+            <summary>
+            For setting a width and height for the square or rectangle
+            </summary>
+            <param name="w">width of the rectangle</param>
+            <param name="h">height of the rectangle</param>
+        </member>
+        <member name="M:ASE_Assessment2.drawRectangle.draw(ASE_Assessment2.Canvass)">
+            <summary>
+             To draw a rectangle or square on the output window with the given width and height by the user
+            </summary>
+            <param name="newCanvass">Display window to draw on</param>
+        </member>
+        <member name="T:ASE_Assessment2.drawTriangle">
+            <summary>
+            To draws a triangle on a output window based on the formula of hypotenus, baseside and adjacent side used by the user
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.drawTriangle.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            For setting a hypotenuse, base and adjacent for the triangle
+            </summary>
+            <param name="h">hypotenuse side of the triangle</param>
+            <param name="b">baseside side of the triangle</param>
+            <param name="a">adjacent side of the triangle</param>
+        </member>
+        <member name="M:ASE_Assessment2.drawTriangle.draw(ASE_Assessment2.Canvass)">
+            <summary>
+            To draws a triangle on the output windowwith the given hypotenuse, base and adjacent side by the user
+            </summary>
+            <param name="newCanvass">Display window to draw on</param>
+        </member>
+        <member name="T:ASE_Assessment2.Form1">
+            <summary>
+            Main class for Form
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.Form1.#ctor">
+            <summary>
+            To create a Form
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.Form1.CommandLine_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            When enter key is pressed, it will excute some action
+            </summary>
+            <param name="sender"></param>
+            <param name="e">Key Event Arguments</param>
+        </member>
+        <member name="M:ASE_Assessment2.Form1.RUN_Click(System.Object,System.EventArgs)">
+            <summary>
+            To runs the application when  button is clicked
+            </summary>
+            <param name="sender"></param>
+            <param name="e">Event Arguements</param>
+        </member>
+        <member name="M:ASE_Assessment2.Form1.OutputWindow_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Displaying window depending on the user given data
+            </summary>
+            <param name="sender"></param>
+            <param name="e">Paint Event Arguements</param>
+        </member>
+        <member name="M:ASE_Assessment2.Form1.SaveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            To save any file in the file directory
+            </summary>
+            <param name="sender"></param>
+            <param name="e">Event Arguements</param>
+        </member>
+        <member name="M:ASE_Assessment2.Form1.LoadToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            To loads any file from the file directory
+            </summary>
+            <param name="sender"></param>
+            <param name="e">Event Arguements</param>
+        </member>
+        <member name="F:ASE_Assessment2.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ASE_Assessment2.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ASE_Assessment2.keepMethods">
+            <summary>
+            This method class is used to store methods given by the users
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ASE_Assessment2.keepMethods.KeepData(System.String,System.String)" -->
+        <member name="M:ASE_Assessment2.keepMethods.Commitdata(System.String)">
+            <summary>
+            Pulls user defined method parameters and instructions
+            </summary>
+            <param name="methodName">User defined method variable</param>
+            <returns></returns>
+        </member>
+        <member name="M:ASE_Assessment2.keepMethods.existingValue(System.String)">
+            <summary>
+            Summarize user provided method parameters and instructions
+            </summary>
+            <param name="methodName">User defined method variable</param>
+            <returns></returns>
+        </member>
+        <member name="M:ASE_Assessment2.keepMethods.RESET">
+            <summary>
+            Clears the value given by user
+            </summary>
+        </member>
+        <member name="T:ASE_Assessment2.keepDictionary">
+            <summary>
+            This keepDictionary class is used to keep provided parameters and values for the user.
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.keepDictionary.KeepData(System.String,System.Int32)">
+            <summary>
+            To store data or value which is provided by user as variable or value 
+            </summary>
+            <param name="Name">User defined variable</param>
+            <param name="Value">User defined value</param>
+        </member>
+        <member name="M:ASE_Assessment2.keepDictionary.Commitdata(System.String)">
+            <summary>
+            To Commit user's defined values and parameters
+            </summary>
+            <param name="Name">User defined variable</param>
+            <returns></returns>
+        </member>
+        <member name="M:ASE_Assessment2.keepDictionary.existingValue(System.String)">
+            <summary>
+            To re-calculate user given variable  and values
+            </summary>
+            <param name="Name">User defined variable</param>
+            <returns></returns>
+        </member>
+        <member name="M:ASE_Assessment2.keepDictionary.addValue(System.String,System.Int32)">
+            <summary>
+            To add user input variable  and value
+            </summary>
+            <param name="Name">User defined variable</param>
+            <param name="Value">User defined value</param>
+        </member>
+        <member name="M:ASE_Assessment2.keepDictionary.RESET">
+            <summary>
+            To clears the value given by user
+            </summary>
+        </member>
+        <member name="T:ASE_Assessment2.Program">
+            <summary>
+            Class Program is used to navigate oe control application by user
+            </summary>
+        </member>
+        <member name="M:ASE_Assessment2.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:ASE_Assessment2.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ASE_Assessment2.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ASE_Assessment2.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

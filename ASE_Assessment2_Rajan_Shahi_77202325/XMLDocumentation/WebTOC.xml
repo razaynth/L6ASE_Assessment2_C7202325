@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="3647c598-f102-4130-a8ed-0b5e49a49203" Title="ASE_Assessment2" Url="html/f1917d21-722a-ee15-1bac-7eefc9d66145.htm">
+    <HelpTOCNode Id="a98d074f-d99b-471b-9a49-0494630338fa" Title="Canvass Class" Url="html/075984eb-5b15-ceb4-9a3e-c3a9978bdf87.htm">
+      <HelpTOCNode Title="Canvass Constructor " Url="html/dd44d48e-d131-81aa-3f20-0659fc0a590d.htm" />
+      <HelpTOCNode Id="bdcf5f2e-39e2-4e96-8dcc-2d614364870f" Title="Canvass Methods" Url="html/1bf00ee8-d1a3-00dd-9ba1-646925d78575.htm">
+        <HelpTOCNode Title="CLEAR Method " Url="html/639bbe7f-31fc-a8ba-a3e0-0eea6d94b3fe.htm" />
+        <HelpTOCNode Title="drawTo Method " Url="html/af7111d7-ebbc-d757-286f-f74a33325937.htm" />
+        <HelpTOCNode Title="moveTo Method " Url="html/c4fb42ea-d362-7763-2ab5-eb2aec51c199.htm" />
+        <HelpTOCNode Title="RESET Method " Url="html/9ec9f047-53c5-2f19-164f-e0adbbcad5e1.htm" />
+        <HelpTOCNode Title="Set_Pencolor Method " Url="html/5f8789fa-e659-2ce5-ab78-f5c071249f69.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3ede7af6-aa1b-4f38-b837-d587183c01d3" Title="Canvass Fields" Url="html/55b65c4c-2f0f-138d-dd6a-46e50ee6f92d.htm">
+        <HelpTOCNode Title="brush Field" Url="html/fdf0c2ec-2ebf-f667-0a71-14519b4d9c42.htm" />
+        <HelpTOCNode Title="cmd_chk Field" Url="html/d77eb0a0-d404-91e8-e2cb-efa39e6c6bae.htm" />
+        <HelpTOCNode Title="Error Field" Url="html/acd7c39f-1f90-e472-aa76-31dfbc94c431.htm" />
+        <HelpTOCNode Title="fil Field" Url="html/096134f5-a9a5-11e2-0da7-81549872a159.htm" />
+        <HelpTOCNode Title="g Field" Url="html/0e6d3a89-5bf9-0aef-02fb-ad603a17a23a.htm" />
+        <HelpTOCNode Title="Ki Field" Url="html/cfff818f-596d-8d69-cd61-e5bdf626a53e.htm" />
+        <HelpTOCNode Title="km Field" Url="html/051abe0b-0b57-94aa-4616-4a24d0aa0d7d.htm" />
+        <HelpTOCNode Title="pen Field" Url="html/6f09b36f-8a69-ad96-3757-6cfa97135d93.htm" />
+        <HelpTOCNode Title="Xpos Field" Url="html/051c6601-df48-ec1f-383b-a2a9e027bee7.htm" />
+        <HelpTOCNode Title="Ypos Field" Url="html/f99c193a-24a5-5fd6-00f1-189ef187339f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f61e7620-9dd4-4164-ac66-26f03046165f" Title="cmdChecker Class" Url="html/139cc206-21e6-f93a-7e36-2e6e53b68c54.htm">
+      <HelpTOCNode Title="cmdChecker Constructor " Url="html/45899e12-c88f-6ca3-2e0c-5e5eae3fa04f.htm" />
+      <HelpTOCNode Id="f2ed066c-bedf-4f21-92a9-cbdb83b1722f" Title="cmdChecker Methods" Url="html/54573a8f-6fbb-e4b9-0ebc-42a2d1f703fd.htm">
+        <HelpTOCNode Title="chk_cmd Method " Url="html/dd6f9b11-5380-3052-c127-a6d40cf4fe08.htm" />
+        <HelpTOCNode Id="4f184520-4aca-4c78-81aa-003eafb8975d" Title="chk_var Method " Url="html/0577b877-850e-64a3-693c-4df3fa7b2d77.htm">
+          <HelpTOCNode Title="chk_var Method (Exception, Canvass, Int32, Int32)" Url="html/3226ae9f-e5fb-4df4-63aa-a700faf068be.htm" />
+          <HelpTOCNode Title="chk_var Method (Boolean, String, Int32, Canvass, Int32)" Url="html/3031e1a3-b0b4-aa98-cc31-4cbd6dfcc03e.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ff91bd5b-4a86-429b-a785-47d43205fa19" Title="cmdReader Class" Url="html/f1ca82e6-674a-b68e-6a4d-9dd6f750a2a3.htm">
+      <HelpTOCNode Title="cmdReader Constructor " Url="html/caa8fcee-c6e2-0e2a-2cb5-054e19cc81d7.htm" />
+      <HelpTOCNode Id="2118f7e1-8040-41b7-a63f-d54b8ba46875" Title="cmdReader Methods" Url="html/088eb245-1c63-1f59-4c3e-96e981835df3.htm">
+        <HelpTOCNode Title="chooseMethod Method " Url="html/eff7856d-cc70-0662-4e14-58a9e1029cbd.htm" />
+        <HelpTOCNode Title="Cmd Method " Url="html/3f61edf2-cd7d-217e-35b7-c05906a33a36.htm" />
+        <HelpTOCNode Title="for_Loop Method " Url="html/17b9b9fb-940f-e0bc-3b20-f6a3a1334dd8.htm" />
+        <HelpTOCNode Title="if_Condition Method " Url="html/af295203-f67e-134c-c507-3d75c3c8a37c.htm" />
+        <HelpTOCNode Title="manyCommand Method " Url="html/3b3f1a7e-c9cf-786c-c568-643421b43099.htm" />
+        <HelpTOCNode Title="oneCommand Method " Url="html/c485bd89-93c1-750f-7293-7b8ca23eaca9.htm" />
+        <HelpTOCNode Title="userCommands Method " Url="html/bdada439-2dec-3626-f98e-514c66ef29ae.htm" />
+        <HelpTOCNode Title="while_Loop Method " Url="html/42c62a91-9995-c6c8-f83c-1bc119b4fddf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b336d962-e690-4f68-853f-2748ce2ada74" Title="cmdReader Fields" Url="html/5459939b-a1b4-eef4-9543-3759b62cf6c4.htm">
+        <HelpTOCNode Title="lne Field" Url="html/079b1267-6f44-f39f-6e1e-c3b32807d343.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5ba44655-7236-43d8-9db4-bfc33c4d75bb" Title="design Class" Url="html/276fff65-4cd2-86f8-7753-a17c3d3808d7.htm">
+      <HelpTOCNode Title="design Constructor " Url="html/b8722cff-0076-6a9a-64e6-7583dddd1034.htm" />
+      <HelpTOCNode Id="09cf7672-48c7-4630-a861-f1e85b97c979" Title="design Methods" Url="html/e757a32e-bc43-e87a-9558-e9efd8df7981.htm">
+        <HelpTOCNode Title="draw Method " Url="html/dc24e258-3727-2765-d199-de7fd7767720.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="67d568ef-8614-4520-94ae-a23c39bdea97" Title="design Fields" Url="html/2ab6f5e5-5095-eb63-c0ca-3690cd79d871.htm">
+        <HelpTOCNode Title="Height Field" Url="html/2b4f382b-d0f5-0f38-e439-c0f7ecf8d147.htm" />
+        <HelpTOCNode Title="Width Field" Url="html/7fd989f1-12e0-7bb4-affa-fc2cede769e1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4a7cd270-830a-4f96-ab63-1e4943e53ada" Title="drawCircle Class" Url="html/ec722ac9-c720-f3f8-637c-ee842cc3a000.htm">
+      <HelpTOCNode Title="drawCircle Constructor " Url="html/0ece451e-815a-398f-3021-b1d1c5c00286.htm" />
+      <HelpTOCNode Id="05dbbb1c-7df4-4610-82d1-31f8a89701f6" Title="drawCircle Methods" Url="html/eb07424f-ac3a-ac85-9edf-cc776c10e05a.htm">
+        <HelpTOCNode Title="draw Method " Url="html/e4ccb1ba-6352-a8e4-b46d-c58c54ed97e1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7e5a250-151a-4479-9021-861e6c7698c1" Title="drawCircle Fields" Url="html/db3b57ff-6bdf-9a1d-974b-f49cc3922349.htm">
+        <HelpTOCNode Title="Rad Field" Url="html/1fbd89a9-e8bd-98ea-1db4-858a575e2497.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f5b1684c-f766-4741-becd-edb48985bbb0" Title="drawPolygon Class" Url="html/fc61b950-0961-b7bc-7b19-a3f4bfb6943b.htm">
+      <HelpTOCNode Title="drawPolygon Constructor " Url="html/c8958cc4-8ded-fb1f-051e-ad2ac51bc5ca.htm" />
+      <HelpTOCNode Id="f59480fc-3673-4f1a-b653-9449f9011cf8" Title="drawPolygon Methods" Url="html/8d611b84-f3b3-923a-c280-a5d4a1671a1d.htm">
+        <HelpTOCNode Title="draw Method " Url="html/7e41017c-3671-a78d-9c84-93072e14fe93.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a26d8511-9f33-4d21-8bec-ad44bea1392b" Title="drawPolygon Fields" Url="html/87c4b92b-8c90-06e3-f3d9-bf72076e4206.htm">
+        <HelpTOCNode Title="pnts Field" Url="html/44136821-af8b-8a51-82f4-404fd533f1ec.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fbd01162-e3a2-4424-95a9-05ff8e5f70db" Title="drawRectangle Class" Url="html/d55b5425-e4af-15a4-9c46-1e9220aeabd0.htm">
+      <HelpTOCNode Title="drawRectangle Constructor " Url="html/e8ce0378-a470-2868-ab55-f0839fa3528c.htm" />
+      <HelpTOCNode Id="7e6b5818-8186-4739-859a-2abc58129df7" Title="drawRectangle Methods" Url="html/d1d4d7c0-37c5-c6e1-d5eb-6d7a447704a3.htm">
+        <HelpTOCNode Title="draw Method " Url="html/25420700-5a47-3309-cfd3-ad88b933c72a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="660190db-30b3-48a2-a456-0e7f6ef70403" Title="drawRectangle Fields" Url="html/d5c19699-3a8b-6f1c-e80b-2137646908d8.htm">
+        <HelpTOCNode Title="Height Field" Url="html/d876ffe4-ad34-6b6d-c7aa-234426e7027f.htm" />
+        <HelpTOCNode Title="Width Field" Url="html/d6d0fa07-1e25-afb8-cdc9-8bdd811e7976.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3aeba447-3b4e-4593-b607-8aa9c0b00d45" Title="drawTriangle Class" Url="html/9a281ec6-0cb9-2424-8273-1870d4194ced.htm">
+      <HelpTOCNode Title="drawTriangle Constructor " Url="html/b59d2e92-e4c8-679d-2f8d-ea0b725a7155.htm" />
+      <HelpTOCNode Id="b105d712-537b-4ae0-9250-49caebd1bf32" Title="drawTriangle Methods" Url="html/7ec162f4-2b75-858f-ce0e-55149d357515.htm">
+        <HelpTOCNode Title="draw Method " Url="html/f2a3bcbc-66d4-7ea9-2217-6cc48a4bb968.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d49cb425-b0ed-44e7-9f72-370043ed9a7a" Title="drawTriangle Fields" Url="html/577310c1-941d-8309-62a8-0c6e25fb22b4.htm">
+        <HelpTOCNode Title="adjacent Field" Url="html/4905ee88-3170-9122-441f-d003b99ca3db.htm" />
+        <HelpTOCNode Title="baseside Field" Url="html/03a12864-2073-b188-5675-368698025361.htm" />
+        <HelpTOCNode Title="hypotenuse Field" Url="html/6b63bbc2-2ce5-8b1d-6db5-5381d048844a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1626a256-ab2a-4a83-b605-adfb89c1b47b" Title="Form1 Class" Url="html/83287aa4-c259-4964-e829-09e881a5b0ef.htm">
+      <HelpTOCNode Title="Form1 Constructor " Url="html/1d5d8189-2cf8-365e-4fef-9be9324dd8be.htm" />
+      <HelpTOCNode Id="5c37baa1-d41c-4ef1-840a-6ed1d9dd0b13" Title="Form1 Methods" Url="html/fe3ce40b-e5ca-335b-bf8b-cc98656c42b9.htm">
+        <HelpTOCNode Title="CLEAR_Click Method " Url="html/293b6548-2dc1-d561-0617-769c9276cd4f.htm" />
+        <HelpTOCNode Title="CommandLine_KeyDown Method " Url="html/595a8d65-e9f4-d7cc-2a24-c761f066850b.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/9e929e03-fb9b-44f7-32da-fb3d73c1659a.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/b1b4cc4c-75b3-aeb2-8ef0-1e991f607745.htm" />
+        <HelpTOCNode Title="LoadToolStripMenuItem_Click Method " Url="html/048732f6-21ea-0de5-797b-d4dae1f60d13.htm" />
+        <HelpTOCNode Title="OutputWindow_Paint Method " Url="html/f308a305-de5d-6cee-3faf-b856b94cefc9.htm" />
+        <HelpTOCNode Title="RESET_Click Method " Url="html/754788f1-9d7e-e247-2a70-eac4cef33620.htm" />
+        <HelpTOCNode Title="RUN_Click Method " Url="html/635139ac-c0a0-d930-2cb8-5112395cffd4.htm" />
+        <HelpTOCNode Title="SaveToolStripMenuItem_Click Method " Url="html/c8e1776c-c986-c597-7ea7-b67620816df5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b815770b-7529-4966-88ba-70c41befa73f" Title="Form1 Fields" Url="html/61f37514-6fea-9cf6-7d86-339552adab60.htm">
+        <HelpTOCNode Title="bitmap1 Field" Url="html/6a45b8b1-392c-2dd2-964d-ed939f847ba4.htm" />
+        <HelpTOCNode Title="bitmap2 Field" Url="html/cdf3a0ea-e815-5922-1336-f1e281b91854.htm" />
+        <HelpTOCNode Title="CLEAR Field" Url="html/be140ee3-5570-34f9-37d9-a3f71da8f8d9.htm" />
+        <HelpTOCNode Title="CommandLine Field" Url="html/4f3daa47-a54d-e22d-f721-37cc8f5cce0f.htm" />
+        <HelpTOCNode Title="components Field" Url="html/5d21c09b-2292-d09a-64ad-931e780ef971.htm" />
+        <HelpTOCNode Title="FileToolStripMenuItem Field" Url="html/513a700e-30ba-856e-d654-bcc61b98e13d.htm" />
+        <HelpTOCNode Title="g Field" Url="html/0e32e123-b3ba-72ae-97a5-2bf5fdecee49.htm" />
+        <HelpTOCNode Title="InputWindow Field" Url="html/c4760612-7ac1-7f1e-7b4d-dd6f0624f43e.htm" />
+        <HelpTOCNode Title="LoadToolStripMenuItem Field" Url="html/32a0cdcf-f614-262f-9d39-3b719b64c70a.htm" />
+        <HelpTOCNode Title="menuStrip1 Field" Url="html/b8568da0-ccdf-6c1d-e67d-5288ca6a09f1.htm" />
+        <HelpTOCNode Title="NewCanvass Field" Url="html/32a21c5d-213a-067c-8af2-8c08ae46d857.htm" />
+        <HelpTOCNode Title="OutputWindow Field" Url="html/c1bd615a-200d-12bd-c9a3-f0fd52902e1d.htm" />
+        <HelpTOCNode Title="RESET Field" Url="html/9d914bf8-1f04-b3e1-6de0-6d2cbe6c6eb7.htm" />
+        <HelpTOCNode Title="RUN Field" Url="html/a839e423-c2e1-590c-86d1-4266779871fc.htm" />
+        <HelpTOCNode Title="SaveToolStripMenuItem Field" Url="html/ada5ab11-8206-fbc8-7a4b-90e24f73d1cf.htm" />
+        <HelpTOCNode Title="ShowBitmap Field" Url="html/518be00c-f739-d944-7170-c5241e66a110.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4d2bb346-adfb-4bf0-ae88-0d6f6b0d6dbc" Title="keepDictionary Class" Url="html/c405ca22-b489-52d6-c4a2-33530e9331a3.htm">
+      <HelpTOCNode Title="keepDictionary Constructor " Url="html/e2bb7e2b-626b-7eca-5a4d-58c32bc38122.htm" />
+      <HelpTOCNode Id="fc249a6f-7c2a-4695-951c-f560c355df0f" Title="keepDictionary Methods" Url="html/e3afb961-effc-b110-a192-076e846e31ac.htm">
+        <HelpTOCNode Title="addValue Method " Url="html/ce0f9f74-f2ee-0622-0e74-450ea0a657cc.htm" />
+        <HelpTOCNode Title="Commitdata Method " Url="html/84ddd7f6-195f-6c04-c431-76d3da376978.htm" />
+        <HelpTOCNode Title="existingValue Method " Url="html/15a2b514-9957-d2a3-2f2d-dbe2a632838d.htm" />
+        <HelpTOCNode Title="KeepData Method " Url="html/19f859f2-10a8-e865-99d3-1ea262d9e4a4.htm" />
+        <HelpTOCNode Title="RESET Method " Url="html/369d662a-5580-d1a9-b379-8cbb4ab45b18.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="86adb8ac-8ca4-4ea6-9e26-2778a7596cda" Title="keepDictionary Fields" Url="html/7b84b1bc-78d5-a345-1c82-0b6e8635757a.htm">
+        <HelpTOCNode Title="variable Field" Url="html/1a06be63-60c9-2292-87a1-f15f87f2c9e3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d075507d-966e-4847-be57-c508c07c8b6e" Title="keepMethods Class" Url="html/903faea7-98bf-fba6-9d88-d02ef1fd7e92.htm">
+      <HelpTOCNode Title="keepMethods Constructor " Url="html/76d7c59b-8c62-435f-67a5-a69c72155b9f.htm" />
+      <HelpTOCNode Id="80ad6eaf-ba48-4a64-90b2-bef64dc205fa" Title="keepMethods Methods" Url="html/07ed8ed0-b588-9d28-214c-2b0f46558b4a.htm">
+        <HelpTOCNode Title="Commitdata Method " Url="html/dec514c7-316c-05ed-ce07-490616a983e5.htm" />
+        <HelpTOCNode Title="existingValue Method " Url="html/ee6848bf-3bb9-ca59-aaa5-8e984b6283af.htm" />
+        <HelpTOCNode Title="KeepData Method " Url="html/4e79a4bc-da1f-6719-fa61-aa40ffd61541.htm" />
+        <HelpTOCNode Title="RESET Method " Url="html/129cb9c9-37f5-3252-9340-d2e3af5fc77c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="44080f3a-53d3-47ca-a142-9634901c1b6e" Title="keepMethods Fields" Url="html/1854e065-a537-9ba5-e56b-927edaa3c7a8.htm">
+        <HelpTOCNode Title="variable Field" Url="html/5c5c7394-1158-cbb8-4767-425b1fa9c662.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8b38e1d2-c8e9-4730-9142-ed15d35780e1" Title="Program Class" Url="html/31b45f20-85d8-a222-3109-88b66404944c.htm">
+      <HelpTOCNode Id="c2403a35-0f9b-49e9-be30-0d8b31ae7ab0" Title="Program Methods" Url="html/b400b890-e3ca-0987-891a-070a512c2184.htm">
+        <HelpTOCNode Title="Main Method " Url="html/ceaf5855-2ca4-d180-de3c-9f62abb752ee.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

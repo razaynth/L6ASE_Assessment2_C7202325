@@ -1,0 +1,11 @@
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\bin\Debug\ASE_Assessment2.exe.config
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\bin\Debug\ASE_Assessment2.exe
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\bin\Debug\ASE_Assessment2.pdb
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\obj\Debug\ASE_Assessment2.Form1.resources
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\obj\Debug\ASE_Assessment2.Properties.Resources.resources
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\obj\Debug\ASE_Assessment2.csproj.GenerateResource.cache
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\obj\Debug\ASE_Assessment2.csproj.CoreCompileInputs.cache
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\obj\Debug\ASE_Assessment2.exe
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\obj\Debug\ASE_Assessment2.pdb
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\bin\Debug\ASE_Assessment2.xml
+C:\Users\Windows-MaX\source\repos\ASE_Assessment2\obj\Debug\ASE_Assessment2.csprojAssemblyReference.cache
